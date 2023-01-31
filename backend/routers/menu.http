@@ -1,0 +1,42 @@
+###
+
+POST  http://localhost:8000/api/menu
+Content-Type: application/json
+
+{
+    "menuName":"Home",
+    "link":"/home"
+}
+
+###
+
+get http://localhost:8000/api/menu
+
+
+###
+
+delete http://localhost:8000/api/menu/
+
+
+
+
+###
+POST  http://localhost:8000/api/category
+Content-Type: application/json
+
+{
+    "categoryName":"Test"
+}
+
+###
+put  http://localhost:8000/api/category
+Content-Type: application/json
+
+{
+    "id":"f00955ba-255e-4504-b57c-c35f76d70290",
+    "categoryName":"Update"
+}
+
+###
+
+get http://localhost:8000/api/category
